@@ -43,7 +43,7 @@ this checks for exact equality
 
 test('two plus two', () => {
     const value = 2 + 2;
-    expect(value).toBeGreaterThan(9);
+    expect(value).toBeGreaterThan(2);
     expect(value).toBeGreaterThanOrEqual(3.5);
     expect(value).toBeLessThan(5);
     expect(value).toBeLessThanOrEqual(4.5);
